@@ -1,1 +1,7 @@
-messing around based on the tutorial videos
+Trying to get a basic working web app which turns an output on and off 
+(for instance to switch a solenoid ) , keeps a count , updates a web page with count and
+give a basic interface for stopping / starting test.
+
+At this point has basic functionality to turn on and off output. Next steps is to add 
+mechanism to cycle and update count to webpage ( websocket probably, maybe ajax ) as well
+as web interface.
