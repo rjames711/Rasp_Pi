@@ -1,0 +1,14 @@
+remote desktop vnc setup:
+https://www.raspberrypi.org/documentation/remote-access/vnc/
+Vnc server icon is in top left.
+installed vim 
+sudo apt-get install vim
+
+For usb hdd mounting and maybe file server using
+http://raspberrywebserver.com/serveradmin/connect-your-raspberry-pi-to-a-USB-hard-disk.html
+
+
+For Django installation:
+http://raspberrypituts.com/django-raspberry-pi-tutorial/
+actually the updated version
+raspberrypituts.com/raspberry-pi-django-tutorial-2017/

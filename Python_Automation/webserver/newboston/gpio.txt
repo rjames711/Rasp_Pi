@@ -1,0 +1,11 @@
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+        GPIO.setup(self.coil_A_1_pin, GPIO.OUT)
+        GPIO.setup(self.coil_A_2_pin, GPIO.OUT)
+        GPIO.setup(self.coil_B_1_pin, GPIO.OUT)
+        GPIO.setup(self.coil_B_2_pin, GPIO.OUT)
+      GPIO.output(self.coil_A_1_pin, w1)
+      GPIO.output(self.coil_A_2_pin, w2)
+      GPIO.output(self.coil_B_1_pin, w3)
+      GPIO.output(self.coil_B_2_pin, w4)

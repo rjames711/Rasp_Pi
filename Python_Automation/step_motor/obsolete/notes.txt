@@ -1,0 +1,4 @@
+For stepper motor driver, operation is not as described for online for typical driver 
+chips. For this driver operation is simply set DIR+ high or low for direction, then
+send a pulse to PUL+ for each step needed. DIR- and PUL- can simply be tied to logic ground
+
