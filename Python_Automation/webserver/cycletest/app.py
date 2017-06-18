@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 from flask import Flask, render_template, request
-#from flask_socketio import SocketIO:
+from flask_socketio import SocketIO:
 
 app =Flask(__name__)
 pin=21
@@ -24,5 +24,5 @@ def profile(name):
 
 
 if __name__ =="__main__":
-	app.run(host='0.0.0.0', port=80, debug=True)
+socket.run(host='0.0.0.0', port=80, debug=True)
    
