@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#/usr/bin/python
 import time
 import pigpio
 pi = pigpio.pi()
@@ -6,10 +6,10 @@ pi = pigpio.pi()
 #26 (solenoid), 13 and 19 (sense in) 
 #pin mappings for asme_valve fixture pcb rev 1:
 # 19 (solenoid), 17 and 27 (sense in) 
-sol_pin = 26
-in1_pin=13
-in2_pin=19
-delay =3
+sol_pin = 19
+in1_pin=17
+in2_pin=27
+delay =2
 # blinking function
 def blink(pin):
     global sol_count #bad bad bad
@@ -68,10 +68,15 @@ print(sol_count, in1_count, in2_count)
 
 
 # blink GPIO17 
-while True:
-    blink(sol_pin)
-    #time.sleep(5)
-    print('cycled')
-GPIO.cleanup()
+if __name__ == "__main__":
+    while True:
+        try:
+            blink(sol_pin)
+            #time.sleep(5)
+            print('cycled')
+        except KeyboardInterrupt:
+            pi.write(sol_pin,0)
+            sys.exit(0)    
+            GPIO.cleanup()
 
 

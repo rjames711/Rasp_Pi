@@ -1,0 +1,15 @@
+total 52
+drwxr-xr-x 10 pi pi 4096 Jun 12 11:28 .
+drwxr-xr-x 29 pi pi 4096 Jun 12 11:16 ..
+-rw-r--r--  1 pi pi    0 Jun 12 11:28 cat
+drwxr-xr-x  2 pi pi 4096 May 31 14:52 c_automation
+-rw-r--r--  1 pi pi  468 May 31 14:52 config_notes.txt
+drwxr-xr-x  2 pi pi 4096 May 31 14:52 device_tree_overlays
+-rw-r--r--  1 pi pi  629 Jun 12 11:28 echo
+drwxr-xr-x  8 pi pi 4096 May 31 14:52 .git
+drwxr-xr-x  3 pi pi 4096 May 31 14:52 practice
+drwxr-xr-x  5 pi pi 4096 May 31 14:52 Python_Automation
+-rw-r--r--  1 pi pi   10 May 31 14:52 README.md
+drwxr-xr-x  2 pi pi 4096 May 31 14:52 sandbox
+drwxr-xr-x  3 pi pi 4096 May 31 14:52 trash
+drwxr-xr-x  3 pi pi 4096 May 31 14:52 web_apps

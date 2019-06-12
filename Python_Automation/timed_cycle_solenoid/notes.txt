@@ -1,0 +1,7 @@
+alkaline D cell: 6.5
+Lithium: 7.31
+1: 9.69v
+2: 9.68v
+starting retrofit at 173retrofit voltage 6.47v
+
+
